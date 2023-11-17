@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Englebert','Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #ca13138a;
+    padding: 20px 0;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+header a{
+    padding: 30px 15px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.logo {
+    margin-top: 0;
+    margin: auto;
+    padding: 0;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 15%;
+    height: auto;
+}
+
+main{
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.473),
+        rgba(255, 255, 255, 0.63)
+    ),
+    url(img/salud.png);
+    background-position: 0px 0px;
+    background-size: 50%;
+    
+}
+
+#inicio{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+#novedades{
+    background-color: rgb(215, 215, 215);
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10vh;
+}
+
+#novedades h2{
+    color: black;
+    
+}
+
+#novedades .novedadess{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+#novedades .container{
+    text-align: center;
+    color: rgb(247, 245, 245);
+}
+
+#novedades p{
+    display: none;
+}
+
+#novedades .novedad{
+    padding: 50px 100px;
+    margin: 10px;
+    border-radius: 20px;
+    flex-direction: row;
+    
+}
+
+.novedad:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 1, 0.398),
+        rgba(0, 0, 1, 0.528)
+    ),
+    url(img/nov1.png);
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.novedad:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 1, 0.398),
+        rgba(0, 0, 1, 0.528)
+    ),
+    url(img/nov3.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.novedad:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 1, 0.398),
+        rgba(0, 0, 1, 0.528)
+    ),
+    url(img/nov2.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+
+#novedades{
+    text-align: center;
+    color: rgb(247, 245, 245);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    background-color: #eb1515;
+    padding: 15px 30px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-decoration: none;
+
+}
+
+button:hover {
+    background-color: #ee5959;
+}
