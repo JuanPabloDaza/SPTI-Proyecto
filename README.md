@@ -1,4 +1,4 @@
-# SPTI-Proyecto-SOAR
+# SPTI-AREP-Proyecto-SOAR
 ## Integrantes: Juan Pablo Daza Pinzón - Juan Sebastian Rodriguez Peña
 ## Información:
 En este repositorio se encuentra el codigo de el Web server y el portal Usuario del proyecto basado en la implementación del SOAR en una arquitectura que mejore la seguridad.<br>
